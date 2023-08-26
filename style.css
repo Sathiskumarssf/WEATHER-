@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background: url("https://images.pexels.com/photos/1076429/pexels-photo-1076429.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.image{
+    background: url("https://th.bing.com/th/id/OIP.806_nt39lV0btovu1BKT6AHaEK?w=275&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7");
+    width: 50%;
+    height: 30%;
+    position: relative;
+    border: solid 2px red;
+    margin-top: 25%;
+    border-radius: 10%;
+    margin-left: 25%;
+}
+.container{
+   width: 25%;
+   height: 75%;
+   border: solid 1px rgb(220, 201, 201);
+   border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  background: url("https://images.pexels.com/photos/4203094/pexels-photo-4203094.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 75%;
+  text-align: center;
+}
+
+.input1{
+    position: absolute;
+    top: 4%;
+    left: 6%;
+   height: 7.45%;
+    font-size: 24px;
+    border-radius: 4px;
+    background: pink;
+}
+.search{
+    font-size: 30px;
+    width: 10%;
+    height: 8%;
+    position: absolute;
+    left: 80%;
+    top: 4%;
+}
+
+h1{
+    position: relative;
+    top:5%;
+    color: rgb(7, 10, 8);
+}
+
+.humality , .humality1 {
+    position: relative;
+    top: 11%;
+    margin-left: -50%;
+    color: rgb(8, 9, 8);
+}
+
+.wind , .wind1{
+    position: relative;
+    top: -5%;
+    margin-left: 60%;
+    color: rgb(5, 5, 5);
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .container{
+        width: 70%;
+        height:70% ;
+    }
+
+    .input1{
+        font-size: 20px;
+      height: 30px;
+      width: 70%;
+      margin-left: auto;
+    }
+
+    .search{
+        width: auto;
+        height: 35px;
+    }
+}
